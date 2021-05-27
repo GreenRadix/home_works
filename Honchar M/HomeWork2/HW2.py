@@ -1,4 +1,4 @@
-# -= Homework #2 by Mykola Honchar =-
+# -= Homework #2 v.1.1 by Mykola Honchar =-
 #
 # Дан словарь такого типа:
 sample_dict = {
