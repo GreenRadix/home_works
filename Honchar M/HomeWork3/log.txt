@@ -1,0 +1,15 @@
+
+2021-06-03 01:42:41 System: Are you have registration on our resource? Please enter 'Y' if 'Yes' or 'N' if 'No' >>>>
+2021-06-03 01:42:41 User: Y
+2021-06-03 01:42:41 System: Please enter your login >>>> 
+2021-06-03 01:42:41 User: noLIgURidi 
+2021-06-03 01:42:41 System: Please enter  your password >>>> 
+2021-06-03 01:42:41 User: eqHX5QYDN 
+2021-06-03 01:42:41 System: Success! Access allowed! Welcome on our resourcenoLIgURidi!
+2021-06-03 01:49:27 System: Are you have registration on our resource? Please enter 'Y' if 'Yes' or 'N' if 'No' >>>>
+2021-06-03 01:49:27 User: Y
+2021-06-03 01:49:27 System: Please enter your login >>>> 
+2021-06-03 01:49:27 User: hero 
+2021-06-03 01:49:27 System: Please enter  your password >>>> 
+2021-06-03 01:49:27 User: fgsbg 
+2021-06-03 01:49:27 System: Your password is incorrect!
