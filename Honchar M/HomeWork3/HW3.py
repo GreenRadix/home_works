@@ -39,41 +39,47 @@ log_file.write(f"{log_date_time} System: Are you have registration on our"
 if user_request == 'Y':
     log_file.write(f"{log_date_time} User: {user_request}\n")
 
-    #  Запитуємо його логін
-    login_request = input("Please enter your login >>>>")
-    log_file.write(f"{log_date_time} System: Please enter your login >>>> \n")
-    log_file.write(f"{log_date_time} User: {login_request} \n")
+    login_request = None
+    pass_request = None
+    #  Запитуємо його логін у циклі доки не посиніє
+    while login_request not in user_dict.keys():
 
-    #  Запитуємо його пароль
-    pass_request = input("Please enter your password >>>>")
-    log_file.write(f"{log_date_time} System: Please enter "
-                   f" your password >>>> \n")
-    log_file.write(f"{log_date_time} User: {pass_request} \n")
+        #  Запитуємо його логін
+        login_request = input("Please enter your login >>>>")
+        log_file.write(f"{log_date_time} System: Please enter your login >>>> \n")
+        log_file.write(f"{log_date_time} User: {login_request} \n")
 
-    # Тут проводимо перевірку чи існує такий логін у системі
-    if login_request in user_dict.keys():
-        # І якщо існує - перевіряємо відповідність паролю введеному логіну
-        if pass_request == user_dict.get(login_request):
-            # І якщо усе ОК, весело відкриваємо перед користувачем двері
-            # у систему й наливаємо чаю с кальвадосом
-            print(f"Success! Access allowed! Welcome on our resource"
-                  f" {login_request}!")
-            log_file.write(f"{log_date_time} System: Success! Access allowed!"
-                           f" Welcome on our resource{login_request}!\n")
-        else:
-            # Якщо ж пароль не вгадав, зажурливо махаємо хустинкою
-            # і йдемо пити чай з кальвадосом самі)
-            print(f"Your password is incorrect!")
-            log_file.write(f"{log_date_time} System:"
-                           f" Your password is incorrect!\n")
+        #  Запитуємо його пароль
+        pass_request = input("Please enter your password >>>>")
+        log_file.write(f"{log_date_time} System: Please enter "
+                       f" your password >>>> \n")
+        log_file.write(f"{log_date_time} User: {pass_request} \n")
 
-    else:  # Ага! Хтось нас хотів нахитати з наскоку,
-        # але ми й не таких завертали
-        print(f"Your login {login_request} is absent in system!")
-        log_file.write(f"{log_date_time} System: Your login {login_request} "
-                       f"is absent in system!\n")
+        # Тут проводимо перевірку чи існує такий логін у системі
+        if login_request in user_dict.keys():
 
-    # якщо користувач відповів, що ще не зареєстрований у системі
+            # І якщо існує - перевіряємо відповідність паролю введеному логіну
+            if pass_request == user_dict.get(login_request):
+                # І якщо усе ОК, весело відкриваємо перед користувачем двері
+                # у систему й наливаємо чаю с кальвадосом
+                print(f"Success! Access allowed! Welcome on our resource"
+                      f" {login_request}!")
+                log_file.write(f"{log_date_time} System: Success! Access allowed!"
+                               f" Welcome on our resource{login_request}!\n")
+            else:
+                # Якщо ж пароль не вгадав, зажурливо махаємо хустинкою
+                # і йдемо пити чай з кальвадосом самі)
+                print(f"Your password is incorrect!")
+                log_file.write(f"{log_date_time} System:"
+                               f" Your password is incorrect!\n")
+
+        else:  # Ага! Хтось нас хотів нахитати з наскоку,
+            # але ми й не таких завертали
+            print(f"Your login {login_request} is absent in system!")
+            log_file.write(f"{log_date_time} System: Your login {login_request} "
+                           f"is absent in system!\n")
+
+# якщо користувач відповів, що ще не зареєстрований у системі
 elif user_request == 'N':
     log_file.write(f"{log_date_time} User: {user_request}\n")
     # питаємо, чи не хоче він зареєструватись?
