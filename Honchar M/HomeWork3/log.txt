@@ -13,3 +13,64 @@
 2021-06-03 01:49:27 System: Please enter  your password >>>> 
 2021-06-03 01:49:27 User: fgsbg 
 2021-06-03 01:49:27 System: Your password is incorrect!
+2021-06-03 17:04:53 System: Are you have registration on our resource? Please enter 'Y' if 'Yes' or 'N' if 'No' >>>>
+2021-06-03 17:04:53 User: Y
+2021-06-03 17:05:41 System: Are you have registration on our resource? Please enter 'Y' if 'Yes' or 'N' if 'No' >>>>
+2021-06-03 17:05:41 User: N
+2021-06-03 17:05:41 System: Do you want to register on our resource? Enter 'Y' if 'Yes' or 'N' if 'No' >>>>
+2021-06-03 17:05:41 User: N
+2021-06-03 17:05:41 System: Good luck!
+2021-06-03 17:05:51 System: Are you have registration on our resource? Please enter 'Y' if 'Yes' or 'N' if 'No' >>>>
+2021-06-03 17:05:51 User: Y
+2021-06-03 17:35:15 System: Are you have registration on our resource? Please enter 'Y' if 'Yes' or 'N' if 'No' >>>>
+2021-06-03 17:35:15 User: Y
+2021-06-03 17:35:15 System: Please enter your login >>>> 
+2021-06-03 17:35:15 User: sdfasdf 
+2021-06-03 17:35:15 System: Please enter  your password >>>> 
+2021-06-03 17:35:15 User: sdfasf 
+2021-06-03 17:35:15 System: Your login sdfasdf is absent in system!
+2021-06-03 17:35:15 System: Please enter your login >>>> 
+2021-06-03 17:35:15 User: asdfasdf 
+2021-06-03 17:35:15 System: Please enter  your password >>>> 
+2021-06-03 17:35:15 User: asdfasdf 
+2021-06-03 17:35:15 System: Your login asdfasdf is absent in system!
+2021-06-03 17:35:15 System: Please enter your login >>>> 
+2021-06-03 17:35:15 User: pediQYwitY 
+2021-06-03 17:35:15 System: Please enter  your password >>>> 
+2021-06-03 17:35:15 User: fgsdgfsd 
+2021-06-03 17:35:15 System: Your password is incorrect!
+2021-06-03 17:43:39 System: Are you have registration on our resource? Please enter 'Y' if 'Yes' or 'N' if 'No' >>>>
+2021-06-03 17:43:39 User: Y
+2021-06-03 17:43:39 System: Please enter your login >>>> 
+2021-06-03 17:43:39 User: dfgasdfsad 
+2021-06-03 17:43:39 System: Please enter  your password >>>> 
+2021-06-03 17:43:39 User: sdfsadf 
+2021-06-03 17:43:39 System: Your login dfgasdfsad is absent in system!
+2021-06-03 17:43:39 System: Please enter your login >>>> 
+2021-06-03 17:43:39 User: sdfasdf 
+2021-06-03 17:43:39 System: Please enter  your password >>>> 
+2021-06-03 17:43:39 User: asdfasdf 
+2021-06-03 17:43:39 System: Your login sdfasdf is absent in system!
+2021-06-03 17:43:39 System: Please enter your login >>>> 
+2021-06-03 17:43:39 User: hero 
+2021-06-03 17:43:39 System: Please enter  your password >>>> 
+2021-06-03 17:43:39 User: sdfasdf 
+2021-06-03 17:43:39 System: Your password is incorrect!
+2021-06-03 18:12:15 System: Are you have registration on our resource? Please enter 'Y' if 'Yes' or 'N' if 'No' >>>>
+2021-06-03 18:12:24 System: Are you have registration on our resource? Please enter 'Y' if 'Yes' or 'N' if 'No' >>>>
+2021-06-03 18:12:24 User: Y
+2021-06-03 18:12:24 System: Please enter your login >>>> 
+2021-06-03 18:12:24 User: dsfsdf 
+2021-06-03 18:12:24 System: Please enter  your password >>>> 
+2021-06-03 18:12:24 User: sdfsdf 
+2021-06-03 18:12:24 System: Your login dsfsdf is absent in system!
+2021-06-03 18:12:24 System: Please enter your login >>>> 
+2021-06-03 18:12:24 User: sdfsdf 
+2021-06-03 18:12:24 System: Please enter  your password >>>> 
+2021-06-03 18:12:24 User: sdfsdf 
+2021-06-03 18:12:24 System: Your login sdfsdf is absent in system!
+2021-06-03 18:12:24 System: Please enter your login >>>> 
+2021-06-03 18:12:24 User: hero 
+2021-06-03 18:12:24 System: Please enter  your password >>>> 
+2021-06-03 18:12:24 User: sdfasdfa 
+2021-06-03 18:12:24 System: Your password is incorrect!

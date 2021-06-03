@@ -35,6 +35,7 @@ with open('whitelist.txt', 'r+', encoding='UTF-8') as file1,\
 # ХХХХХХХХХХХХХХХХХХХХ
 # 	...
 #     Print Finished
+
 with open('whitelist.txt', 'r+', encoding='UTF-8') as file1, \
         open('blacklist.txt', 'r+', encoding='UTF-8') as file2, \
         open('new_file2.txt', 'w', encoding='UTF-8') as file3:
@@ -43,3 +44,6 @@ with open('whitelist.txt', 'r+', encoding='UTF-8') as file1, \
     merge_list = merge_list1 + merge_list2
     print(*merge_list, sep='XXXXXXXXXXXXXXXXXXXXXX\n',
           end='Print Finished', file=file3)
+
+
+
